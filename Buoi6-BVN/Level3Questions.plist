@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Check</key>
+		<string>0</string>
+		<key>Question</key>
+		<string>Trong bóng rổ khi vận động viên ném rổ ở khoảng cách 6.25 m sẽ được bao nhiêu điểm ?</string>
+		<key>Answers</key>
+		<array>
+			<string>2</string>
+			<string>3</string>
+			<string>4</string>
+			<string>5</string>
+		</array>
+		<key>Right</key>
+		<string>2</string>
+	</dict>
+	<dict>
+		<key>Check</key>
+		<string>0</string>
+		<key>Question</key>
+		<string>Nước nào nhỏ nhất thế giới</string>
+		<key>Answers</key>
+		<array>
+			<string>Vaticang</string>
+			<string>Đông- Ti- Mo</string>
+			<string>Úc</string>
+			<string>Lào</string>
+		</array>
+		<key>Right</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>Check</key>
+		<string>0</string>
+		<key>Question</key>
+		<string>Lăng chủ tịch Hồ Chí Minh được xây dựng vào năm nào ?</string>
+		<key>Answers</key>
+		<array>
+			<string>1975</string>
+			<string>1976</string>
+			<string>1977</string>
+			<string>1978</string>
+		</array>
+		<key>Right</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>Check</key>
+		<string>0</string>
+		<key>Question</key>
+		<string>Trên lá cờ quốc gia nào có hình con chim WIKI ?</string>
+		<key>Answers</key>
+		<array>
+			<string>Lào</string>
+			<string>Ấn Độ</string>
+			<string>Niu Di Lân</string>
+			<string>Phần Lan</string>
+		</array>
+		<key>Right</key>
+		<string>2</string>
+	</dict>
+</array>
+</plist>

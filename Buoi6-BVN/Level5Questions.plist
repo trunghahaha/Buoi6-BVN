@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Check</key>
+		<string>0</string>
+		<key>Question</key>
+		<string>Trang web được nhiều người truy cập nhất theo thống kê của Alexa ?</string>
+		<key>Answers</key>
+		<array>
+			<string>Yahoo</string>
+			<string>Google</string>
+			<string>MSN</string>
+			<string>VNExpress</string>
+		</array>
+		<key>Right</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>Check</key>
+		<string>0</string>
+		<key>Question</key>
+		<string>Hội nghị thành lập GATT diễn ra ở đâu ?</string>
+		<key>Answers</key>
+		<array>
+			<string>Paris</string>
+			<string>Geneve</string>
+			<string>London</string>
+			<string>New York</string>
+		</array>
+		<key>Right</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>Check</key>
+		<string>0</string>
+		<key>Question</key>
+		<string>Tiền thân của WTO là tổ chức nào ?</string>
+		<key>Answers</key>
+		<array>
+			<string>GATT</string>
+			<string>WTA</string>
+			<string>HCI</string>
+			<string>ICAO</string>
+		</array>
+		<key>Right</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>Check</key>
+		<string>0</string>
+		<key>Question</key>
+		<string>Cao ủy liên hợp quốc về vấn đề tị nạn có tên viết tắt là gì ?</string>
+		<key>Answers</key>
+		<array>
+			<string>UNHRC</string>
+			<string>UNHCR</string>
+			<string>UNHSV</string>
+			<string>UNDTN</string>
+		</array>
+		<key>Right</key>
+		<string>1</string>
+	</dict>
+</array>
+</plist>

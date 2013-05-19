@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Check</key>
+		<string>0</string>
+		<key>Question</key>
+		<string>Sông Mê Kông chảy vào địa phận nước ta qua tỉnh nào đầu tiên ?</string>
+		<key>Answers</key>
+		<array>
+			<string>Cần Thơ</string>
+			<string>Tiền Giang</string>
+			<string>Hậu Giang</string>
+			<string>Cà Mau</string>
+		</array>
+		<key>Right</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>Check</key>
+		<string>0</string>
+		<key>Question</key>
+		<string>Tỉnh nào có diện tích nhỏ nhất nước ta ?</string>
+		<key>Answers</key>
+		<array>
+			<string>Bắc Ninh</string>
+			<string>Nam Định</string>
+			<string>Kiên Giang</string>
+			<string>KonTum</string>
+		</array>
+		<key>Right</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>Check</key>
+		<string>0</string>
+		<key>Question</key>
+		<string>Tỉnh nào có diện tích lớn nhất nước ta ?</string>
+		<key>Answers</key>
+		<array>
+			<string>Thái Bình</string>
+			<string>Bình Dương</string>
+			<string>Khánh Hòa</string>
+			<string>Nghệ An</string>
+		</array>
+		<key>Right</key>
+		<string>3</string>
+	</dict>
+	<dict>
+		<key>Check</key>
+		<string>0</string>
+		<key>Question</key>
+		<string>Karate có nguồn gôc từ quốc gia nào ?</string>
+		<key>Answers</key>
+		<array>
+			<string>Trung Quốc</string>
+			<string>Ấn Độ</string>
+			<string>Thái Lan</string>
+			<string>Nhật Bản</string>
+		</array>
+		<key>Right</key>
+		<string>3</string>
+	</dict>
+</array>
+</plist>

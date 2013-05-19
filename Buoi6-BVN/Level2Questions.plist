@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Check</key>
+		<string>0</string>
+		<key>Question</key>
+		<string>Kênh đào Suez nối Địa Trung Hải với biển nào ?</string>
+		<key>Answers</key>
+		<array>
+			<string>Biển Đông</string>
+			<string>Biển Thái Bình Dương</string>
+			<string>Biển Ấn Độ Dương</string>
+			<string>Biển Đỏ</string>
+		</array>
+		<key>Right</key>
+		<string>3</string>
+	</dict>
+	<dict>
+		<key>Check</key>
+		<string>0</string>
+		<key>Question</key>
+		<string>Tổng thống John Kenedy bị ám sát vào năm nào ?</string>
+		<key>Answers</key>
+		<array>
+			<string>1963</string>
+			<string>1964</string>
+			<string>1965</string>
+			<string>1966</string>
+		</array>
+		<key>Right</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>Check</key>
+		<string>0</string>
+		<key>Question</key>
+		<string>Giải thưởng Nobel trao cho các nhà khoa học trong bao nhiêu lĩnh vực ?</string>
+		<key>Answers</key>
+		<array>
+			<string>5</string>
+			<string>6</string>
+			<string>7</string>
+			<string>8</string>
+		</array>
+		<key>Right</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>Check</key>
+		<string>0</string>
+		<key>Question</key>
+		<string>Nguyên tố nào có nhiều hợp chất nhất ?</string>
+		<key>Answers</key>
+		<array>
+			<string>Cacbon</string>
+			<string>OxiBiển Thái Bình Dương</string>
+			<string>Hidro</string>
+			<string>Nito</string>
+		</array>
+		<key>Right</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>Check</key>
+		<string>0</string>
+		<key>Question</key>
+		<string>Tên gọi Việt Nam có từ năm nào ?</string>
+		<key>Answers</key>
+		<array>
+			<string>1801</string>
+			<string>1802</string>
+			<string>1803</string>
+			<string>1804</string>
+		</array>
+		<key>Right</key>
+		<string>3</string>
+	</dict>
+</array>
+</plist>

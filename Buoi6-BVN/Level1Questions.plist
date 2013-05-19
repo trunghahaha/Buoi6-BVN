@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Check</key>
+		<string>0</string>
+		<key>Answers</key>
+		<array>
+			<string>hai đáy</string>
+			<string>một đáy</string>
+			<string>không đáy</string>
+			<string>bốn đáy</string>
+		</array>
+		<key>Question</key>
+		<string>Đàn đáy có mấy đáy ?</string>
+		<key>Right</key>
+		<string>2</string>
+	</dict>
+	<dict>
+		<key>Check</key>
+		<string>0</string>
+		<key>Answers</key>
+		<array>
+			<string>Manchester City</string>
+			<string>Manchester United</string>
+			<string>Real Madrid</string>
+			<string>Liverpool</string>
+		</array>
+		<key>Question</key>
+		<string>Câu lạc bộ bóng đá nào được bình chọn là câu lạc bộ vĩ đại nhất thế kỉ 20 ?</string>
+		<key>Right</key>
+		<string>2</string>
+	</dict>
+	<dict>
+		<key>Question</key>
+		<string>Ở loài chó, tuyến mồ hôi tập trung hầu hết ở đâu ?</string>
+		<key>Answers</key>
+		<array>
+			<string>Chân</string>
+			<string>Đuôi</string>
+			<string>Tai</string>
+			<string>Lưỡi</string>
+		</array>
+		<key>Check</key>
+		<string>0</string>
+		<key>Right</key>
+		<string>3</string>
+	</dict>
+	<dict>
+		<key>Question</key>
+		<string>Một phân tử metan có bao nhiêu nguyên tử Hidro ?</string>
+		<key>Answers</key>
+		<array>
+			<string>4</string>
+			<string>3</string>
+			<string>2</string>
+			<string>1</string>
+		</array>
+		<key>Check</key>
+		<string>0</string>
+		<key>Right</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>Question</key>
+		<string>Việt Nam trở thành thành viên của tổ chức APEC từ năm nào ?</string>
+		<key>Answers</key>
+		<array>
+			<string>1996</string>
+			<string>1997</string>
+			<string>1998</string>
+			<string>1999</string>
+		</array>
+		<key>Check</key>
+		<string>0</string>
+		<key>Right</key>
+		<string>2</string>
+	</dict>
+</array>
+</plist>
