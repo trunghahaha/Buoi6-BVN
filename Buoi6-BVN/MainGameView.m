@@ -15,7 +15,11 @@
 @end
 
 @implementation MainGameView
-
+{
+    CGAffineTransform _btnTransform;
+    UISlider * slider;
+    float volume;
+}
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -55,6 +59,15 @@
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Chào mừng bạn trở lại!!!" message:@"Hãy vận dụng hiểu biết của mình để trở thành triệu phú." delegate:self cancelButtonTitle:@"Tiếp tục" otherButtonTitles:NULL, nil];
         [alert show];
     }
+    // init audio controller and load sound
+   // NSArray *sound = [NSArray arrayWithObjects:@"wrong.m4a", @"win.mp3" , @"ding.mp3", nil];
+    self.audioController = [[SoundPlayer alloc] init];
+    [self.audioController preloadSound:soundNames];
+    //-------------------------
+    [self addGuesture:[self intSingleTapGuesture:@selector(showVolumeSlider)] for:self.volumeBtn];
+    [self addGuesture:[self intSingleTapGuesture:@selector(hiddenSlider)] for:self.xBtn];
+    volume = 0.3;
+    [self.audioController playSound:backgroundMusic];
 }
 - (void)viewDidLoad
 {
@@ -81,6 +94,7 @@
     [img addGestureRecognizer:singleTap];
     [img setUserInteractionEnabled:YES];
 }
+//back to main menu
 - (void) backToRootScreen {
     [self.navigationController popViewControllerAnimated:YES];
 }
@@ -123,12 +137,17 @@
     bool answer = [self.question checkRight: playerAnswer];
     if(answer == YES) {
         [self.rewardLb setText:[NSString stringWithFormat:@"Phần thưởng: %ld000 VND", self.question.reward]];
+        // play sound
+        [self.audioController playSound:dingSound];
         if(self.question.number < 16) {
         [self showQuestion:self.question];
         }else{
+            [self.audioController stopSound:backgroundMusic];
+            [self.audioController playSound:victorySound];
             [self.winNotification show];
         }
     }else{
+        [self.audioController playSound:wrongSound];
         [self.loseNotification show];
     }
 }
@@ -137,8 +156,12 @@
     NSString *buttonTitle = [alertView buttonTitleAtIndex:buttonIndex];
     if(alertView == self.answerNotification){
         if([buttonTitle isEqualToString:@"Đồng ý"]) {
+            [self setTransform];
             [self checkRight:self.playerAnswer];
-        }else return;
+        }else {
+            [self setTransform];
+            return;
+        };
     }
     if(alertView == self.loseNotification){
         if([buttonTitle isEqualToString:@"Đồng ý"]) {
@@ -203,5 +226,44 @@
         [sources writeToFile:scorePath atomically:YES];
     }
     NSLog(@"Done");
+}
+// some effect when touch the answer
+- (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    UITouch *myTouch = [touches anyObject];
+    if(myTouch.view.tag == 1){
+        _btnTransform = self.aBtn.transform;
+        self.aBtn.transform = CGAffineTransformScale(self.aBtn.transform, 1.5, 1.5);
+    }else if(myTouch.view.tag == 2){
+        _btnTransform = self.bBtn.transform;
+        self.bBtn.transform = CGAffineTransformScale(self.bBtn.transform, 1.5, 1.5);
+    }else if(myTouch.view.tag == 3){
+        _btnTransform = self.cBtn.transform;
+        self.cBtn.transform = CGAffineTransformScale(self.cBtn.transform, 1.5, 1.5);
+    }else if(myTouch.view.tag == 4){
+        _btnTransform = self.dBtn.transform;
+        self.dBtn.transform = CGAffineTransformScale(self.dBtn.transform, 1.5, 1.5);
+    }
+}
+- (void) setTransform{
+    self.aBtn.transform = _btnTransform;
+    self.bBtn.transform = _btnTransform;
+    self.cBtn.transform = _btnTransform;
+    self.dBtn.transform = _btnTransform;
+}
+// create volume control
+- (void) showVolumeSlider {
+    slider = [[UISlider alloc] initWithFrame:CGRectMake(150, 230, 100,50)];
+    slider.center = CGPointMake(self.volumeBtn.center.x - 50, self.volumeBtn.center.y + 30);
+    slider.value = volume;
+    [slider addTarget:self action:@selector(sliderValueChanged:) forControlEvents:UIControlEventValueChanged];
+    [self.view addSubview:slider];
+}
+- (void) sliderValueChanged: (id) sender {
+    volume = slider.value;
+    NSLog(@"%f", volume);
+    [self.audioController setVolume:volume withFileNamesArray:soundNames];
+}
+- (void) hiddenSlider {
+    [slider removeFromSuperview];
 }
 @end

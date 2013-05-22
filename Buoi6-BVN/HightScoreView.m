@@ -70,6 +70,6 @@
     NSLog(@"have %d score", scores.count);
     NSLog(@"%@", scoreTable);
     [self.highScoreTV setText:scoreTable];
-    NSLog(@"%@", scorePath);
+    //NSLog(@"%@", scorePath);
 }
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB15C221174CD4F700ABD403 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB15C21F174CD4F700ABD403 /* win.mp3 */; };
 		EB678A361746897000224C7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB678A351746897000224C7F /* UIKit.framework */; };
 		EB678A381746897000224C7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB678A371746897000224C7F /* Foundation.framework */; };
 		EB678A3A1746897000224C7F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB678A391746897000224C7F /* CoreGraphics.framework */; };
@@ -29,6 +30,14 @@
 		EB678A711746B6F700224C7F /* PlayingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB678A6F1746B6F700224C7F /* PlayingView.xib */; };
 		EB678A761746B72300224C7F /* HightScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB678A741746B72300224C7F /* HightScoreView.m */; };
 		EB678A771746B72300224C7F /* HightScoreView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB678A751746B72300224C7F /* HightScoreView.xib */; };
+		EB9D567E174D379700F55960 /* ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB9D567D174D379700F55960 /* ding.mp3 */; };
+		EB9D5684174D427300F55960 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB9D5683174D427300F55960 /* x.png */; };
+		EB9D5686174D43A400F55960 /* Volume.png in Resources */ = {isa = PBXBuildFile; fileRef = EB9D5685174D43A400F55960 /* Volume.png */; };
+		EB9D5688174D48B400F55960 /* Background music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB9D5687174D48B400F55960 /* Background music.mp3 */; };
+		EB9D568A174D4EE900F55960 /* Victory.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB9D5689174D4EE900F55960 /* Victory.mp3 */; };
+		EBDC063E174CED8600BFE10B /* SoundPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDC063D174CED8600BFE10B /* SoundPlayer.m */; };
+		EBDC0645174CFE1600BFE10B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDC0644174CFE1600BFE10B /* AVFoundation.framework */; };
+		EBDC0647174D01D900BFE10B /* wrong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBDC0646174D01D900BFE10B /* wrong.mp3 */; };
 		EBE4BA6F17489CFB0056CDAC /* highScoreBG.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE4BA6E17489CFB0056CDAC /* highScoreBG.png */; };
 		EBE4BA711748A1330056CDAC /* HighScore.plist in Resources */ = {isa = PBXBuildFile; fileRef = EBE4BA701748A1330056CDAC /* HighScore.plist */; };
 		EBE799C41747B5D800F755D1 /* playingViewBG.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE799C31747B5D800F755D1 /* playingViewBG.png */; };
@@ -58,6 +67,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB15C21F174CD4F700ABD403 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		EB15C222174CD50800ABD403 /* wrong.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = wrong.m4a; sourceTree = "<group>"; };
+		EB15C226174CE36500ABD403 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		EB678A321746897000224C7F /* Buoi6-BVN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Buoi6-BVN.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB678A351746897000224C7F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EB678A371746897000224C7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -87,6 +99,15 @@
 		EB678A731746B72300224C7F /* HightScoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HightScoreView.h; sourceTree = "<group>"; };
 		EB678A741746B72300224C7F /* HightScoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HightScoreView.m; sourceTree = "<group>"; };
 		EB678A751746B72300224C7F /* HightScoreView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HightScoreView.xib; sourceTree = "<group>"; };
+		EB9D567D174D379700F55960 /* ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ding.mp3; path = ../../../../../../Users/doductrung/Downloads/ding.mp3; sourceTree = "<group>"; };
+		EB9D5683174D427300F55960 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
+		EB9D5685174D43A400F55960 /* Volume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Volume.png; sourceTree = "<group>"; };
+		EB9D5687174D48B400F55960 /* Background music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Background music.mp3"; sourceTree = "<group>"; };
+		EB9D5689174D4EE900F55960 /* Victory.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Victory.mp3; sourceTree = "<group>"; };
+		EBDC063C174CED8600BFE10B /* SoundPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundPlayer.h; sourceTree = "<group>"; };
+		EBDC063D174CED8600BFE10B /* SoundPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundPlayer.m; sourceTree = "<group>"; };
+		EBDC0644174CFE1600BFE10B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EBDC0646174D01D900BFE10B /* wrong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = wrong.mp3; path = ../../../../../../Users/doductrung/Downloads/wrong.mp3; sourceTree = "<group>"; };
 		EBE4BA6E17489CFB0056CDAC /* highScoreBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = highScoreBG.png; sourceTree = "<group>"; };
 		EBE4BA701748A1330056CDAC /* HighScore.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HighScore.plist; sourceTree = "<group>"; };
 		EBE799C31747B5D800F755D1 /* playingViewBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playingViewBG.png; sourceTree = "<group>"; };
@@ -124,6 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBDC0645174CFE1600BFE10B /* AVFoundation.framework in Frameworks */,
 				EB678A361746897000224C7F /* UIKit.framework in Frameworks */,
 				EB678A381746897000224C7F /* Foundation.framework in Frameworks */,
 				EB678A3A1746897000224C7F /* CoreGraphics.framework in Frameworks */,
@@ -134,6 +156,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB15C21D174CD42C00ABD403 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				EB9D5689174D4EE900F55960 /* Victory.mp3 */,
+				EB9D5687174D48B400F55960 /* Background music.mp3 */,
+				EB9D567D174D379700F55960 /* ding.mp3 */,
+				EBDC0646174D01D900BFE10B /* wrong.mp3 */,
+				EB15C222174CD50800ABD403 /* wrong.m4a */,
+				EB15C21F174CD4F700ABD403 /* win.mp3 */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
 		EB678A291746897000224C7F = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +189,7 @@
 		EB678A341746897000224C7F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EBDC0644174CFE1600BFE10B /* AVFoundation.framework */,
 				EB678A351746897000224C7F /* UIKit.framework */,
 				EB678A371746897000224C7F /* Foundation.framework */,
 				EB678A391746897000224C7F /* CoreGraphics.framework */,
@@ -165,11 +201,12 @@
 		EB678A3D1746897000224C7F /* Buoi6-BVN */ = {
 			isa = PBXGroup;
 			children = (
+				EBDC063F174CF18000BFE10B /* Assets */,
+				EB15C226174CE36500ABD403 /* config.h */,
 				EBE799FC1747E7E000F755D1 /* MainGameView */,
 				EB678A721746B70800224C7F /* HighScoreView */,
 				EB678A6C1746B6C000224C7F /* PlayingView */,
 				EB678A6B1746B6A000224C7F /* RootView */,
-				EB678A5C1746A08C00224C7F /* Img */,
 				EB678A461746897000224C7F /* AppDelegate.h */,
 				EB678A471746897000224C7F /* AppDelegate.m */,
 				EB678A4F1746897100224C7F /* Buoi6_BVN.xcdatamodeld */,
@@ -180,6 +217,8 @@
 				EBE79A061747F27100F755D1 /* Player.m */,
 				EBE79A0D1748024B00F755D1 /* Question.h */,
 				EBE79A0E1748024C00F755D1 /* Question.m */,
+				EBDC063C174CED8600BFE10B /* SoundPlayer.h */,
+				EBDC063D174CED8600BFE10B /* SoundPlayer.m */,
 			);
 			path = "Buoi6-BVN";
 			sourceTree = "<group>";
@@ -208,6 +247,8 @@
 		EB678A5C1746A08C00224C7F /* Img */ = {
 			isa = PBXGroup;
 			children = (
+				EB9D5685174D43A400F55960 /* Volume.png */,
+				EB9D5683174D427300F55960 /* x.png */,
 				EBE4BA6E17489CFB0056CDAC /* highScoreBG.png */,
 				EBE79A1617480D7900F755D1 /* D.png */,
 				EBE79A1717480D7900F755D1 /* C.png */,
@@ -259,6 +300,15 @@
 				EB678A751746B72300224C7F /* HightScoreView.xib */,
 			);
 			name = HighScoreView;
+			sourceTree = "<group>";
+		};
+		EBDC063F174CF18000BFE10B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				EB678A5C1746A08C00224C7F /* Img */,
+				EB15C21D174CD42C00ABD403 /* Audio */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 		EBE799FC1747E7E000F755D1 /* MainGameView */ = {
@@ -356,6 +406,13 @@
 				EBE79A1D17480D7A00F755D1 /* A.png in Resources */,
 				EBE4BA6F17489CFB0056CDAC /* highScoreBG.png in Resources */,
 				EBE4BA711748A1330056CDAC /* HighScore.plist in Resources */,
+				EB15C221174CD4F700ABD403 /* win.mp3 in Resources */,
+				EBDC0647174D01D900BFE10B /* wrong.mp3 in Resources */,
+				EB9D567E174D379700F55960 /* ding.mp3 in Resources */,
+				EB9D5684174D427300F55960 /* x.png in Resources */,
+				EB9D5686174D43A400F55960 /* Volume.png in Resources */,
+				EB9D5688174D48B400F55960 /* Background music.mp3 in Resources */,
+				EB9D568A174D4EE900F55960 /* Victory.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +433,7 @@
 				EBE79A041747EA8D00F755D1 /* Save.m in Sources */,
 				EBE79A071747F27100F755D1 /* Player.m in Sources */,
 				EBE79A0F1748024C00F755D1 /* Question.m in Sources */,
+				EBDC063E174CED8600BFE10B /* SoundPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +510,10 @@
 		EB678A551746897100224C7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Buoi6-BVN\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Buoi6-BVN/Buoi6-BVN-Prefix.pch";
 				INFOPLIST_FILE = "Buoi6-BVN/Buoi6-BVN-Info.plist";
@@ -463,6 +525,10 @@
 		EB678A561746897100224C7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Buoi6-BVN\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Buoi6-BVN/Buoi6-BVN-Prefix.pch";
 				INFOPLIST_FILE = "Buoi6-BVN/Buoi6-BVN-Info.plist";

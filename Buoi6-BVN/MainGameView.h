@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "Question.h"
 #import "Player.h"
+#import "config.h"
+#import "SoundPlayer.h"
 @interface MainGameView : UIViewController <UIAlertViewDelegate>
 @property (nonatomic, assign) int playerAnswer;
 @property (nonatomic, strong) Question * question;
@@ -30,4 +32,8 @@
 @property (nonatomic, strong) IBOutlet UIAlertView *answerNotification;
 @property (nonatomic, strong) IBOutlet UIAlertView *getName;
 @property (nonatomic, strong) IBOutlet UIAlertView *winNotification;
+@property (nonatomic, strong) SoundPlayer *audioController;
+@property (weak, nonatomic) IBOutlet UIImageView *volumeBtn;
+@property (weak, nonatomic) IBOutlet UIImageView *xBtn;
+
 @end
